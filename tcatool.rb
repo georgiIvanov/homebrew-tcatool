@@ -8,7 +8,7 @@ class Tcatool < Formula
   depends_on "click"
 
   def install
-    bin.install "tcatool"
+    system "install"
   end
 
 end
