@@ -12,11 +12,5 @@ class Tcatool < Formula
   end
 
   depends_on "click"
-  depends_on "cycler"
-  depends_on "kiwisolver"
-  depends_on "Pillow"
-  depends_on "pyparsing"
-  depends_on "python-dateutil"
-  depends_on "six"
 
 end
