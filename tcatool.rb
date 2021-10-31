@@ -8,6 +8,7 @@ class Tcatool < Formula
   license "MIT"
 
   depends_on "python"
+  depends_on "click"
 
   def install
     virtualenv_install_with_resources
