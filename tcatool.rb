@@ -13,8 +13,6 @@ class Tcatool < Formula
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3.9/site-packages"
     virtualenv_install_with_resources
-    bin.install Dir[libexec/"bin/*"]
-    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
   end
 
   test do
