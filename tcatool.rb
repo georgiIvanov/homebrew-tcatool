@@ -11,7 +11,6 @@ class Tcatool < Formula
   depends_on "click"
 
   def install
-    ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python3.9/site-packages"
     virtualenv_install_with_resources
   end
 
