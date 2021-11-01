@@ -12,6 +12,7 @@ class Tcatool < Formula
 
   def install
     virtualenv_install_with_resources
+    system "python", *Language::Python.setup_install_args(prefix)
   end
 
   test do
