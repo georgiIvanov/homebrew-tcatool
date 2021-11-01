@@ -8,7 +8,11 @@ class Tcatool < Formula
   license "MIT"
 
   depends_on "python"
-  depends_on "click"
+  
+  resource "click" do
+    url "https://files.pythonhosted.org/packages/f4/09/ad003f1e3428017d1c3da4ccc9547591703ffea548626f47ec74509c5824/click-8.0.3.tar.gz"
+    sha1 "7349de19203a2b87e3fcf7ea325c71466673e5f9"
+  end
 
   def install
     virtualenv_install_with_resources
