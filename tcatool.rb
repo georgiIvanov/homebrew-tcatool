@@ -3,8 +3,8 @@ class Tcatool < Formula
 
   desc "CLI that helps automate some of the work necessary for using The Composable Architecture"
   homepage "https://github.com/georgiIvanov/tcatool"
-  url "https://github.com/georgiIvanov/tcatool/releases/download/v0.2.0/tcatool-0.2.0.tar.gz"
-  sha256 "82098a8ccfb37c2f476ce1cf341288f62529855675bc65243b916c082932ecbe"
+  url "https://github.com/georgiIvanov/tcatool/releases/download/v0.2.1/tcatool-0.2.1.tar.gz"
+  sha256 "a9981557171ca4848b6cbc975f3b01db16c5f5f07b6bdb26302a309f951b73ff"
   license "MIT"
 
   depends_on "python"
